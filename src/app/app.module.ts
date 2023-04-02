@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TelaInicialComponent } from './components/tela-inicial/tela-inicial/tela-inicial.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TelaInicialComponent
   ],
   imports: [
     BrowserModule,

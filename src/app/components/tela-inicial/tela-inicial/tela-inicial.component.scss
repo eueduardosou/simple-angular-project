@@ -1,0 +1,64 @@
+
+.container {
+  .initial-content {
+    height: 250px;
+    background-color: #174ea6;
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      width: auto;
+
+      .menu-text {
+        padding-top: 10px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .name-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .profile-picture {
+      width: 150px;
+      display: inline-block;
+      border-radius: 50%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .text-content {
+      padding-left: 15px;
+
+      .name {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 4px;
+      }
+
+      .text {
+        color: white;
+        width: 500px;
+      }
+    }
+  }
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-left: 40%;
+
+  .title {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+  }
+}
